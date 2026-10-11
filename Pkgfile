@@ -15,8 +15,8 @@ vars:
   cni_sha512: 5811fb14786f1f9d9e40741ce337449ce329e14e04213bc660102eb470150f24026e59caec480572e37d0e3e6e6518737f3cc7ac462c47034d0737283ec532f9
 
   # renovate: datasource=github-tags depName=containerd/containerd
-  containerd_version: v2.3.6
-  containerd_ref: ee2735368117d2eb259779949d5e75cdafec9761
+  containerd_version: v2.4.1
+  containerd_ref: f2551031d7276a770f65f98c9b52e57e7dad07e8
   containerd_sha256: b4b407c64e11a22549b14c47857ac0e02e9f47f8cfc28924e9aa04a0adcaa883
   containerd_sha512: 47e13e5442fbf25f37faca76882aad58a927ff2fc0cdb5cd41b1ab75204a5e02269220709da5b1c0a4dd588d5a8b61132219c83eabd3bd7a4a64e6ff7f22ac72
 
@@ -101,7 +101,7 @@ vars:
   iptables_sha512: 3aefd76ca60d00f46ba4d6f39cbcfdc60517d03b6714da25dcd67542f6f4eea8d82c4855bdd9124efe18b769f41951772b8340a6eda75b85f8dd52b2289b145b
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: 719a85cfccb1f71cd18c7825e42ebbc322e6eaff
+  ipxe_ref: a57eaae286d099a0b69497f2f88a43416e7541c6
   ipxe_sha256: 3ced182fa7425f45a5b7390ae8602578d207a0a3f3c613298f2638570a67208c
   ipxe_sha512: 95f413f74953ef1ef43c0264ce31a0341c75e0f882e44c9257ec250fed345df17af14473df6bd393d838759dab37c03fe720b51ef837f2bb42e6753127bcd87a
 
@@ -111,7 +111,7 @@ vars:
   kspp_sha512: 55f35ce46a0d44746780b9e47fef0d6383096ef519686022afdfdaae571a7d8749c02f45a0c6e9f07c36a4e8f51dc05b4e49131354eab8c892fc2690274face4
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-  linux_version: 6.18.55
+  linux_version: 6.18.56
   linux_sha256: f410638061a165c12f42ab871d2f3fcd525515359b5faeee80969cff84524df9
   linux_sha512: 4c8c6ec5a87d695a2ab2141ed75101911996f24a1c3cbb8497d9642e168a7145a724f12433aa46febe85b8a4257ceeff3ee4a4e1765ab08f1fec904ca2a42663
 
@@ -324,7 +324,7 @@ vars:
 
   # NOTE: v4 requires autoconf-archive
   # renovate: datasource=git-tags depName=https://gitlab.com/apparmor/apparmor.git
-  apparmor_version: v3.1.7
+  apparmor_version: v5.0.2
   apparmor_sha256: 64494bd99fa6547a9cbdb4fc6bc732451a02dd19e6eb70eab977b239632151eb
   apparmor_sha512: cfd6b0afb98d4559c16a6a2e23ca16ee9d86325fc6059313df5d3e8feba3d398f96a5754d3880dd2cafb2e7b1a06bd789d62cd36aaf993e46290f6311bb49dac
 
